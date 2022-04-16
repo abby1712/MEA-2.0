@@ -10,16 +10,16 @@ int light_value_dec, light_value_per;
 
 
 String value1, value2, value3;
-#define KEY1 "bOZPXaWbNOpgI4cIqK1_3H"        // Webhooks Key
+#define KEY1 "IFTTTKEY"        // Webhooks Key
 #define EVENT1 "Temp_alert"      // Webhooks Event Name
 Webhook webhook1(KEY1, EVENT1);    // Create an object.
 
-#define KEY2 "bOZPXaWbNOpgI4cIqK1_3H"        // Webhooks Key
+#define KEY2 "IFTTTKEY"        // Webhooks Key
 #define EVENT2 "Fire_Alert"      // Webhooks Event Name
 Webhook webhook2(KEY2, EVENT2);    // Create an object.
 
 
-#define KEY3 "bOZPXaWbNOpgI4cIqK1_3H"        // Webhooks Key
+#define KEY3 "IFTTTKEY"        // Webhooks Key
 #define EVENT3 "Gas_alert"      // Webhooks Event Name
 Webhook webhook3(KEY3, EVENT3);    // Create an object.
 ///////////////////////////////////
@@ -52,12 +52,12 @@ String sheetgasalarm = "";
 
 String sheettempalarm = "";
 
-const char* ssid = "CMCC-Origon";
-const char* password = "welcome@123";
+const char* ssid = "WIFI-SSID";
+const char* password = "WIFI-PASSWORD";
 
 
 const char* host = "script.google.com";
-const char* GScriptId = "AKfycby6vrTEsc7fha0Cyy7SmzlWa3GoXUtjvXBSInZzNOt3ukxRoJ4UiNPRATqk8K5RAx3O";
+const char* GScriptId = "ScriptId";
 const int httpsPort = 443;
 
 OneWire oneWire(ONE_WIRE_BUS); 
